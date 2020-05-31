@@ -101,10 +101,12 @@ subprojects {
         //maven {url "http://ci.emc.gs/nexus/content/groups/aikar/" }
         maven {url "http://ci.athion.net/job/PlotSquared-Legacy/ws/mvn/"}
         mavenLocal()
-        maven {url "http://empcraft.com/maven2"}
+        //maven {url "http://empcraft.com/maven2"}
+        maven {url "https://raw.githubusercontent.com/FabioZumbi12/RedProtect/mvn-repo/"}
+        maven {url "https://repo.phoenix616.dev/"}
         maven {url "https://hub.spigotmc.org/nexus/content/groups/public/"}
         maven {url "http://maven.sk89q.com/repo/"}
-        maven {url "http://repo.maven.apache.org/maven2"}
+        maven {url "https://repo.maven.apache.org/maven2"}
         maven {url "http://ci.frostcast.net/plugin/repository/everything"}
         maven {url "http://maven.sk89q.com/artifactory/repo"}
         maven {url "http://repo.spongepowered.org/maven"}
